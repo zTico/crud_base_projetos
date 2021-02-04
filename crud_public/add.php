@@ -5,12 +5,10 @@
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1">
  <title>CRUD com Bootstrap 3</title>
-
  <link href="css/bootstrap.min.css" rel="stylesheet">
  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-
  <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
    <div class="navbar-header">
@@ -29,13 +27,8 @@
    </div>
   </div>
  </nav>
-  
-
-
+ 
  <div id="main" class="container-fluid">
-
-  
-  
   <h3 class="page-header">Adicionar usuário</h3>
 
   <?php if(isset($_GET['inserido']) && isset($_GET['inserido']) == 'usuario_adicionado'){ ?>
