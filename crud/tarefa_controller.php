@@ -1,7 +1,7 @@
 <?php
     session_start();
     require "../crud/tarefa.model.php";
-	require "../crud/tarefa.service.php";
+    require "../crud/tarefa.service.php";
     require "../crud/conexao.php";
     require "validacpf.php";
 
