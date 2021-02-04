@@ -13,9 +13,9 @@ class TarefaService {
 	public function inserir() { //create
 		$query = 'insert into usuarios(nome, email, cpf, cadastro)values(?,?,?, NOW())';
 		$stmt = $this->conexao->prepare($query);
-        $stmt->bindValue(1, $this->tarefa->__get('nome'));
-        $stmt->bindValue(2, $this->tarefa->__get('email'));
-        $stmt->bindValue(3, $this->tarefa->__get('cpf'));
+		$stmt->bindValue(1, $this->tarefa->__get('nome'));
+		$stmt->bindValue(2, $this->tarefa->__get('email'));
+		$stmt->bindValue(3, $this->tarefa->__get('cpf'));
 		$stmt->execute();
 	}
 
